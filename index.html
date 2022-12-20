@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <script src="js/pixi.js"></script>
+    <script src="js/pixi-helpers.js"></script>
+    <script src="js/simHelpers.js"></script>
+		<title>Simulation</title>
+    <style>
+		body, html {margin: 0; padding:0; background-color: black; overflow:hidden;}
+    </style>
+  </head>
+<body>
+  <h1 id = "+punkte"; style = "position:absolute; left:280px; top:695px; size: +4 larger; color: white"></h1>
+  <h1 id = "runde"; style = "position:absolute; left:1000px; top:695px; size: +4; color: white"></h1>
+  <h1 id = "punkte"; style = "position:absolute; left:120px; top:695px; size: +4; color: white"></h1>
+  <script src="ourSimulation.js"></script>
+  <script>if(beforeStart) beforeStart();</script>
+</body>
+</html>
